@@ -3,9 +3,6 @@
 A real-time analytics system built using Apache Kafka, Spring Boot microservices,
 GraphQL API Gateway, PostgreSQL, and Grafana dashboards.
 
-## Architecture
-![Architecture](docs/architecture-diagram.png)
-
 ## Services
 - **order-service** → Publishes OrderCreated events to Kafka.
 - **analytics-service** → Consumes events, stores metrics in PostgreSQL.

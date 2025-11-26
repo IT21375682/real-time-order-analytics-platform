@@ -1,0 +1,15 @@
+# Maven / Gradle
+target/
+build/
+
+# Node
+node_modules/
+dist/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
